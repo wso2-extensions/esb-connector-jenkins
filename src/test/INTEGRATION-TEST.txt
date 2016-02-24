@@ -34,7 +34,7 @@ Steps to follow in setting integration test.
    ii)   On the Credential page, select the option "Global credentials" and create the username , password for further use. 
    iii)  Create a new job by navigating to the section 'New Item'. Then build the created job.
    iv)   Create two .xml files which contain the configuration details to create the job and to update the job. Add the created files to the following location.
-          <JENKINS_CONNECTOR_HOME>/src/test/resources/artifacts/ESB/config/resources/jenkins.
+          <JENKINS_HOME>/src/test/resources/artifacts/ESB/config/resources/jenkins.
          Note : Make sure to include 'id' as a parameter in the two .xml  files.
    
  6. Navigate to location "<ESB_HOME>/repository/conf/axis2" and add/uncomment following lines in "axis2.xml". 
