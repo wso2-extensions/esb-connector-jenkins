@@ -50,7 +50,7 @@
                 mc.setProperty('uri.var.build', 'buildWithParameters');
                 // Add a leading '?' and remove the trailing '&'
                 if (urlQuery != "") {
-                   urlQuery = '?' + urlQuery.substring(0, urlQuery.length - 1);
+                   urlQuery = '?' + urlQuery.toString().substring(0, urlQuery.toString().lastIndexOf("&"));
                    mc.setProperty('uri.var.urlQuery', urlQuery);
                 }
             }
@@ -59,7 +59,7 @@
       <call>
          <endpoint>
             <http method="post"
-               uri-template="{+uri.var.apiUrl}/job/{+uri.var.jobName}/{+uri.var.build}/api/{+uri.var.responseType}{+uri.var.urlQuery}" />
+                  uri-template="{+uri.var.apiUrl}/job/{+uri.var.jobName}/{+uri.var.build}/api/{+uri.var.responseType}{+uri.var.urlQuery}" />
          </endpoint>
       </call>
       <!-- Remove custom Headers from the API Response -->
