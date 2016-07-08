@@ -135,10 +135,10 @@
         </dependency>
     </dependencies>
     <scm>
-        <connection>scm:git:https://github.com/wso2-extensions/esb-connector-jenkins.git
-        </connection>
+        <connection>scm:git:https://github.com/wso2-extensions/esb-connector-jenkins.git</connection>
         <url>https://github.com/wso2-extensions/esb-connector-jenkins.git</url>
-        <developerConnection>scm:git:https://github.com/wso2-extensions/esb-connector-jenkins
+        <developerConnection>
+            scm:git:https://github.com/wso2-extensions/esb-connector-jenkins
         </developerConnection>
         <tag>HEAD</tag>
     </scm>
