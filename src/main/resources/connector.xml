@@ -23,5 +23,8 @@
         <dependency component="jenkins-config"/>
         <description>WSO2 ESB Connector Library for Jenkins API.</description>
     </component>
+    <authenticationInfo>
+        https://docs.wso2.com/display/ESBCONNECTORS/Configuring+Jenkins+Operations
+    </authenticationInfo>
     <icon>icon/icon-small.gif</icon>
 </connector>
