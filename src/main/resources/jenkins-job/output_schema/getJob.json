@@ -1,0 +1,180 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "mavenModuleSet",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "description": {
+      "id": "http:\/\/wso2jsonschema.org\/description",
+      "type": "null"
+    },
+    "displayName": {
+      "id": "http:\/\/wso2jsonschema.org\/displayName",
+      "type": "string"
+    },
+    "name": {
+      "id": "http:\/\/wso2jsonschema.org\/name",
+      "type": "string"
+    },
+    "url": {
+      "id": "http:\/\/wso2jsonschema.org\/url",
+      "type": "string"
+    },
+    "buildable": {
+      "id": "http:\/\/wso2jsonschema.org\/buildable",
+      "type": "boolean"
+    },
+    "build": {
+      "id": "http:\/\/wso2jsonschema.org\/build",
+      "type": "object",
+      "properties": {
+        "number": {
+          "id": "http:\/\/wso2jsonschema.org\/build\/number",
+          "type": "number"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/build\/url",
+          "type": "string"
+        }
+      }
+    },
+    "color": {
+      "id": "http:\/\/wso2jsonschema.org\/color",
+      "type": "string"
+    },
+    "firstBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/firstBuild",
+      "type": "object",
+      "properties": {
+        "number": {
+          "id": "http:\/\/wso2jsonschema.org\/firstBuild\/number",
+          "type": "number"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/firstBuild\/url",
+          "type": "string"
+        }
+      }
+    },
+    "healthReport": {
+      "id": "http:\/\/wso2jsonschema.org\/healthReport",
+      "type": "object",
+      "properties": {
+        "description": {
+          "id": "http:\/\/wso2jsonschema.org\/healthReport\/description",
+          "type": "string"
+        },
+        "iconClassName": {
+          "id": "http:\/\/wso2jsonschema.org\/healthReport\/iconClassName",
+          "type": "string"
+        },
+        "iconUrl": {
+          "id": "http:\/\/wso2jsonschema.org\/healthReport\/iconUrl",
+          "type": "string"
+        },
+        "score": {
+          "id": "http:\/\/wso2jsonschema.org\/healthReport\/score",
+          "type": "number"
+        }
+      }
+    },
+    "inQueue": {
+      "id": "http:\/\/wso2jsonschema.org\/inQueue",
+      "type": "boolean"
+    },
+    "keepDependencies": {
+      "id": "http:\/\/wso2jsonschema.org\/keepDependencies",
+      "type": "boolean"
+    },
+    "lastBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/lastBuild",
+      "type": "object",
+      "properties": {
+        "number": {
+          "id": "http:\/\/wso2jsonschema.org\/lastBuild\/number",
+          "type": "number"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/lastBuild\/url",
+          "type": "string"
+        }
+      }
+    },
+    "lastCompletedBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/lastCompletedBuild",
+      "type": "object",
+      "properties": {
+        "number": {
+          "id": "http:\/\/wso2jsonschema.org\/lastCompletedBuild\/number",
+          "type": "number"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/lastCompletedBuild\/url",
+          "type": "string"
+        }
+      }
+    },
+    "lastStableBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/lastStableBuild",
+      "type": "object",
+      "properties": {
+        "number": {
+          "id": "http:\/\/wso2jsonschema.org\/lastStableBuild\/number",
+          "type": "number"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/lastStableBuild\/url",
+          "type": "string"
+        }
+      }
+    },
+    "lastSuccessfulBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/lastSuccessfulBuild",
+      "type": "object",
+      "properties": {
+        "number": {
+          "id": "http:\/\/wso2jsonschema.org\/lastSuccessfulBuild\/number",
+          "type": "number"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/lastSuccessfulBuild\/url",
+          "type": "string"
+        }
+      }
+    },
+    "nextBuildNumber": {
+      "id": "http:\/\/wso2jsonschema.org\/nextBuildNumber",
+      "type": "number"
+    },
+    "concurrentBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/concurrentBuild",
+      "type": "boolean"
+    },
+    "scm": {
+      "id": "http:\/\/wso2jsonschema.org\/scm",
+      "type": "null"
+    },
+    "module": {
+      "id": "http:\/\/wso2jsonschema.org\/module",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/module\/name",
+          "type": "string"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/module\/url",
+          "type": "string"
+        },
+        "color": {
+          "id": "http:\/\/wso2jsonschema.org\/module\/color",
+          "type": "string"
+        },
+        "displayName": {
+          "id": "http:\/\/wso2jsonschema.org\/module\/displayName",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "type": "object"
+}

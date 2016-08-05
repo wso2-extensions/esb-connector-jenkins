@@ -1,0 +1,104 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "hudson",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "assignedLabel": {
+      "id": "http:\/\/wso2jsonschema.org\/assignedLabel",
+      "type": "null"
+    },
+    "mode": {
+      "id": "http:\/\/wso2jsonschema.org\/mode",
+      "type": "string"
+    },
+    "nodeDescription": {
+      "id": "http:\/\/wso2jsonschema.org\/nodeDescription",
+      "type": "string"
+    },
+    "nodeName": {
+      "id": "http:\/\/wso2jsonschema.org\/nodeName",
+      "type": "null"
+    },
+    "numExecutors": {
+      "id": "http:\/\/wso2jsonschema.org\/numExecutors",
+      "type": "number"
+    },
+    "job": {
+      "id": "http:\/\/wso2jsonschema.org\/job",
+      "type": "array",
+      "items": [
+        {
+          "id": "http:\/\/wso2jsonschema.org\/job\/0",
+          "type": "object",
+          "properties": {
+            "name": {
+              "id": "http:\/\/wso2jsonschema.org\/job\/0\/name",
+              "type": "string"
+            },
+            "url": {
+              "id": "http:\/\/wso2jsonschema.org\/job\/0\/url",
+              "type": "string"
+            },
+            "color": {
+              "id": "http:\/\/wso2jsonschema.org\/job\/0\/color",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "overallLoad": {
+      "id": "http:\/\/wso2jsonschema.org\/overallLoad",
+      "type": "null"
+    },
+    "primaryView": {
+      "id": "http:\/\/wso2jsonschema.org\/primaryView",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/primaryView\/name",
+          "type": "string"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/primaryView\/url",
+          "type": "string"
+        }
+      }
+    },
+    "quietingDown": {
+      "id": "http:\/\/wso2jsonschema.org\/quietingDown",
+      "type": "boolean"
+    },
+    "slaveAgentPort": {
+      "id": "http:\/\/wso2jsonschema.org\/slaveAgentPort",
+      "type": "number"
+    },
+    "unlabeledLoad": {
+      "id": "http:\/\/wso2jsonschema.org\/unlabeledLoad",
+      "type": "null"
+    },
+    "useCrumbs": {
+      "id": "http:\/\/wso2jsonschema.org\/useCrumbs",
+      "type": "boolean"
+    },
+    "useSecurity": {
+      "id": "http:\/\/wso2jsonschema.org\/useSecurity",
+      "type": "boolean"
+    },
+    "view": {
+      "id": "http:\/\/wso2jsonschema.org\/view",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/view\/name",
+          "type": "string"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/view\/url",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "type": "object"
+}
