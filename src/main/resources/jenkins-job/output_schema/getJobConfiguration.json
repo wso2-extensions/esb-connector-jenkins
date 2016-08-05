@@ -1,0 +1,199 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "maven2-moduleset",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "attributes": {
+    "plugin": {
+      "id": "http:\/\/wso2jsonschema.org\/plugin",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "actions": {
+      "id": "http:\/\/wso2jsonschema.org\/actions",
+      "type": "null"
+    },
+    "description": {
+      "id": "http:\/\/wso2jsonschema.org\/description",
+      "type": "null"
+    },
+    "keepDependencies": {
+      "id": "http:\/\/wso2jsonschema.org\/keepDependencies",
+      "type": "boolean"
+    },
+    "properties": {
+      "id": "http:\/\/wso2jsonschema.org\/properties",
+      "type": "null"
+    },
+    "scm": {
+      "id": "http:\/\/wso2jsonschema.org\/scm",
+      "type": "object",
+      "properties": {},
+      "attributes": {
+        "class": {
+          "id": "http:\/\/wso2jsonschema.org\/class",
+          "type": "string"
+        }
+      }
+    },
+    "canRoam": {
+      "id": "http:\/\/wso2jsonschema.org\/canRoam",
+      "type": "boolean"
+    },
+    "disabled": {
+      "id": "http:\/\/wso2jsonschema.org\/disabled",
+      "type": "boolean"
+    },
+    "blockBuildWhenDownstreamBuilding": {
+      "id": "http:\/\/wso2jsonschema.org\/blockBuildWhenDownstreamBuilding",
+      "type": "boolean"
+    },
+    "blockBuildWhenUpstreamBuilding": {
+      "id": "http:\/\/wso2jsonschema.org\/blockBuildWhenUpstreamBuilding",
+      "type": "boolean"
+    },
+    "jdk": {
+      "id": "http:\/\/wso2jsonschema.org\/jdk",
+      "type": "string"
+    },
+    "triggers": {
+      "id": "http:\/\/wso2jsonschema.org\/triggers",
+      "type": "null"
+    },
+    "concurrentBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/concurrentBuild",
+      "type": "boolean"
+    },
+    "rootModule": {
+      "id": "http:\/\/wso2jsonschema.org\/rootModule",
+      "type": "object",
+      "properties": {
+        "groupId": {
+          "id": "http:\/\/wso2jsonschema.org\/rootModule\/groupId",
+          "type": "string"
+        },
+        "artifactId": {
+          "id": "http:\/\/wso2jsonschema.org\/rootModule\/artifactId",
+          "type": "string"
+        }
+      }
+    },
+    "rootPOM": {
+      "id": "http:\/\/wso2jsonschema.org\/rootPOM",
+      "type": "string"
+    },
+    "aggregatorStyleBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/aggregatorStyleBuild",
+      "type": "boolean"
+    },
+    "incrementalBuild": {
+      "id": "http:\/\/wso2jsonschema.org\/incrementalBuild",
+      "type": "boolean"
+    },
+    "ignoreUpstremChanges": {
+      "id": "http:\/\/wso2jsonschema.org\/ignoreUpstremChanges",
+      "type": "boolean"
+    },
+    "archivingDisabled": {
+      "id": "http:\/\/wso2jsonschema.org\/archivingDisabled",
+      "type": "boolean"
+    },
+    "siteArchivingDisabled": {
+      "id": "http:\/\/wso2jsonschema.org\/siteArchivingDisabled",
+      "type": "boolean"
+    },
+    "fingerprintingDisabled": {
+      "id": "http:\/\/wso2jsonschema.org\/fingerprintingDisabled",
+      "type": "boolean"
+    },
+    "resolveDependencies": {
+      "id": "http:\/\/wso2jsonschema.org\/resolveDependencies",
+      "type": "boolean"
+    },
+    "processPlugins": {
+      "id": "http:\/\/wso2jsonschema.org\/processPlugins",
+      "type": "boolean"
+    },
+    "mavenValidationLevel": {
+      "id": "http:\/\/wso2jsonschema.org\/mavenValidationLevel",
+      "type": "number"
+    },
+    "runHeadless": {
+      "id": "http:\/\/wso2jsonschema.org\/runHeadless",
+      "type": "boolean"
+    },
+    "disableTriggerDownstreamProjects": {
+      "id": "http:\/\/wso2jsonschema.org\/disableTriggerDownstreamProjects",
+      "type": "boolean"
+    },
+    "blockTriggerWhenBuilding": {
+      "id": "http:\/\/wso2jsonschema.org\/blockTriggerWhenBuilding",
+      "type": "boolean"
+    },
+    "settings": {
+      "id": "http:\/\/wso2jsonschema.org\/settings",
+      "type": "object",
+      "properties": {},
+      "attributes": {
+        "class": {
+          "id": "http:\/\/wso2jsonschema.org\/class",
+          "type": "string"
+        }
+      }
+    },
+    "globalSettings": {
+      "id": "http:\/\/wso2jsonschema.org\/globalSettings",
+      "type": "object",
+      "properties": {},
+      "attributes": {
+        "class": {
+          "id": "http:\/\/wso2jsonschema.org\/class",
+          "type": "string"
+        }
+      }
+    },
+    "reporters": {
+      "id": "http:\/\/wso2jsonschema.org\/reporters",
+      "type": "null"
+    },
+    "publishers": {
+      "id": "http:\/\/wso2jsonschema.org\/publishers",
+      "type": "null"
+    },
+    "buildWrappers": {
+      "id": "http:\/\/wso2jsonschema.org\/buildWrappers",
+      "type": "null"
+    },
+    "prebuilders": {
+      "id": "http:\/\/wso2jsonschema.org\/prebuilders",
+      "type": "null"
+    },
+    "postbuilders": {
+      "id": "http:\/\/wso2jsonschema.org\/postbuilders",
+      "type": "null"
+    },
+    "runPostStepsIfResult": {
+      "id": "http:\/\/wso2jsonschema.org\/runPostStepsIfResult",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http:\/\/wso2jsonschema.org\/runPostStepsIfResult\/name",
+          "type": "string"
+        },
+        "ordinal": {
+          "id": "http:\/\/wso2jsonschema.org\/runPostStepsIfResult\/ordinal",
+          "type": "number"
+        },
+        "color": {
+          "id": "http:\/\/wso2jsonschema.org\/runPostStepsIfResult\/color",
+          "type": "string"
+        },
+        "completeBuild": {
+          "id": "http:\/\/wso2jsonschema.org\/runPostStepsIfResult\/completeBuild",
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "project",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "actions": {
+      "id": "http:\/\/wso2jsonschema.org\/actions",
+      "type": "null"
+    },
+    "description": {
+      "id": "http:\/\/wso2jsonschema.org\/description",
+      "type": "string"
+    },
+    "keepDependencies": {
+      "id": "http:\/\/wso2jsonschema.org\/keepDependencies",
+      "type": "boolean"
+    },
+    "publishers": {
+      "id": "http:\/\/wso2jsonschema.org\/publishers",
+      "type": "null"
+    },
+    "buildWrappers": {
+      "id": "http:\/\/wso2jsonschema.org\/buildWrappers",
+      "type": "null"
+    }
+  },
+  "type": "object"
+}
